@@ -2,14 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <p><b>Welcome to  the world of puggos!</b></p>
   </head>
   <body>
     <svg width="100%" viewBox="0 0 600 275" style="background-color: white">
     <rect x="0" y="200" width="1000" height="100" fill="green"/>
     <circle x="550" y="45" r="75" fill="yellow"/>
     <image x="550" y="150" width="50" height="50" xlink:href="http://bestanimations.com/Animals/Mammals/Dogs/pugs/funny-cute-animated-pug-gif-34.gif">
-      <animate id="walkdoggowalk" attributeName="x" from="550" to="10" dur="550" begin="click"/>
-      <animate attributeName="x" from="550" to="10" dur="10" begin="walkdoggowalk.end"/>
+      <animate id="walkdoggowalk" attributeName="x" from="550" to="35" dur="10s" begin="click"/>
+    </image>
+      <image x="10" y="50" width="50" height="50" xlink:href="http://bestanimations.com/Animals/Mammals/Dogs/pugs/funny-cute-animated-pug-gif-37.gif">
+      <animate attributeName = "x" from = "10" to = "550" dur="6s" begin="click" repeatcount="indefinite"/>
+      </image>
+      <image x="475" y="150" width="50" height="50" xlink:href="https://t2.rbxcdn.com/a67a88da2117f12ea7067853e2dad9fd">
+      <animate attributeName = "x" from = "475" to = "10" dur="9s" begin="walkdoggowalk.begin"/>
+      </image>
+      <text x="0" y="210" font-family: "Raleway"; font-size="8" fill="black">Puggo is chasing the legendary pizza that grants any wish.</text>
   </svg>
 
   </body>
